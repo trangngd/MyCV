@@ -1,14 +1,23 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      My CV
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+      <ion-row class="logo-row">
+              <ion-col></ion-col>
+              <ion-col>
+                <img src="https://www.myworldofwork.co.uk/sites/default/files/images/cv-sized-no-pic.jpg"/>
+              </ion-col>
+              <ion-col></ion-col>
+            </ion-row>
+  
+  <div id="topButtons">
+    <button ion-button (click)="signIn()" item-left>Sign In</button>
+    <button ion-button (click)="register()" item-left>Register</button>
+    </div>
+
 </ion-content>
